@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../components/Header";
 import FeaturedDestination from "../components/FeaturedDestination";
 import ExclusiveOffers from "../components/ExclusiveOffers";
+import Guests from "../components/Guests";
+import NewsLetter from "../components/NewsLetter";
 
 const HomePage = () => {
    return(
@@ -9,6 +11,8 @@ const HomePage = () => {
        <Header />
        <FeaturedDestination />
        <ExclusiveOffers/>
+       <Guests/>
+       <NewsLetter/>
 
        </div>
    )

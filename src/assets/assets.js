@@ -1,4 +1,6 @@
 import logo from './logo.svg'
+import hotel_logo from './hotel_logo.png'
+import owner from './owner.png'
 import searchIcon from './searchIcon.svg'
 import userIcon from './userIcon.svg'
 import calenderIcon from './calenderIcon.svg'
@@ -41,6 +43,8 @@ import totalRevenueIcon from "./totalRevenueIcon.svg";
 
 export const assets = {
     logo,
+    hotel_logo,
+    owner,
     searchIcon,
     userIcon,
     calenderIcon,
@@ -77,7 +81,7 @@ export const assets = {
 export const cities = [
     "Dubai",
     "Singapore",
-    "New York",
+    "Samarkhand",
     "London",
 ];
 
@@ -115,26 +119,26 @@ export const roomCommonData = [
 // User Dummy Data
 export const userDummyData = {
     "_id": "user_2unqyL4diJFP1E3pIBnasc7w8hP",
-    "username": "Great Stack",
-    "email": "user.greatstack@gmail.com",
-    "image": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJ2N2c5YVpSSEFVYVUxbmVYZ2JkSVVuWnFzWSJ9",
+    "username": "John Dev",
+    "email": "user.sobirjon.0513@gmail.com",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKkwYFHgzFQ5ZdJNwLLKDJ2yygtqmmlnGrog&s",
     "role": "hotelOwner",
     "createdAt": "2025-03-25T09:29:16.367Z",
     "updatedAt": "2025-04-10T06:34:48.719Z",
     "__v": 1,
     "recentSearchedCities": [
-        "New York"
+        "Samarkhand"
     ]
 }
 
 // Hotel Dummy Data
 export const hotelDummyData = {
     "_id": "67f76393197ac559e4089b72",
-    "name": "Urbanza Suites",
+    "name": "Marokand Plaze",
     "address": "Main Road  123 Street , 23 Colony",
     "contact": "+0123456789",
     "owner": userDummyData,
-    "city": "New York",
+    "city": "Samarkhand",
     "createdAt": "2025-04-10T06:22:11.663Z",
     "updatedAt": "2025-04-10T06:22:11.663Z",
     "__v": 0
